@@ -16,6 +16,17 @@ primary key(id)
 desc employee_payroll;
 select * from employee_payroll;
 
+-- UC3
+insert into employee_payroll (name,salary,startDate)
+values('Suresh', 38000, '2021-01-10');
+insert into employee_payroll (name,salary,startDate)
+values('vikram', 33000, '2021-04-10');
+insert into employee_payroll (name,salary,startDate)
+values('Sravan', 42000, '2020-02-20');
+insert into employee_payroll (name,salary,startDate)
+values('pradeep', 25000, '2020-10-10');
+
+
 
 
 
