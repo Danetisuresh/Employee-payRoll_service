@@ -31,6 +31,14 @@ values('pradeep', 25000, '2020-10-10');
 select * from employee_payroll;
 
 
+-- UC5
+
+select * from employee_payroll where salary > 40000;
+
+select * from employee_payroll
+where startDate between '2020-01-01' AND Date(now());
+
+
 
 
 
